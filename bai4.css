@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.form-container {
+  width: 700px;
+  margin: 0 auto;
+}
+.form-container h1 {
+  text-align: center;
+}
+.form-container label {
+  display: block;
+  margin-top: 10px;
+}
+.form-container input,
+.form-container select {
+  width: 200px;
+  padding: 8px;
+  margin-top: 5px;
+}
+.form-container .gender {
+  display: flex;
+}
+.form-container .interests {
+  display: flex;
+  justify-content: space-between;
+}
+.form-container .gender input,
+.form-container .interests input {
+  width: auto;
+}
+.form-container button {
+  width: 100px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.dob {
+  display: flex;
+}
